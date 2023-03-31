@@ -35,4 +35,4 @@ Las vistas son navegables de manera independiente y cuentan con su propia url:
         ○ Detalle del producto: “/items/:id”
         ● Dado un id de producto, debería poder ingresar directamente a la vista de detalle de producto.
 
-
+breadcrums

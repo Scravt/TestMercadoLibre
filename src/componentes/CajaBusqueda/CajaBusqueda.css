@@ -21,7 +21,7 @@ form{
 #buscador{
     color:#333333;
     font-size: 18px;
-    width:50rem ;
+    width:70rem ;
     margin-left: 20px;
     height: 30px;
     border-radius: 4px 0px 0px 4px;
@@ -36,9 +36,7 @@ form{
     align-items: center;
     border-radius: 0px 4px 4px 0px;
 }
-#Buscar img{
-    
-}
+
 #buscador::selection{
     border-style: none;
 

@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+
+header {
+    height:50px;
+    display: flex;
+    background-color:#FFE600;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+}
+#buscador{
+    color:#333333;
+    font-size: 18px;
+    width:50rem ;
+    margin-left: 20px;
+    height: 30px;
+    border-radius: 4px 0px 0px 4px;
+    text-indent: 16px;
+
+}
+#Buscar{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 4px 4px 0px;
+}
+#Buscar img{
+    
+}
+#buscador::selection{
+    border-style: none;
+
+}
+#buscador::placeholder{
+    color: #999999;
+    text-indent: 16px;
+    
+}
+
+body{
+    background-color: #EEEEEE;
+}

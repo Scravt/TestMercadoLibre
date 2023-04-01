@@ -1,12 +1,12 @@
 import { useState } from 'react'
-import './App.css'
-import { CajaBusqueda } from './componentes/CajaBusqueda'
+
+import  {CajaBusqueda}  from './componentes/CajaBusqueda/CajaBusqueda'
 
 function App() {
   return (
-    <div>
+    
       <CajaBusqueda/>
-    </div>
+    
   )
 }
 

@@ -2,7 +2,7 @@ import React from 'react'
 import { ProductoEnLista } from './ProductoEnLista'
 import {CajaBusqueda} from '../CajaBusqueda/CajaBusqueda'
 import './ProductosLista.css'
-
+import {Breadcrumbs} from './Breadcrumbs'
 export const ListaProductos = () => {
 
 
@@ -12,9 +12,7 @@ export const ListaProductos = () => {
       <CajaBusqueda/>
       
       <div className='ContenedorProductos'> 
-      <div className='breadcrumbs'>
-        breadcrumbs
-      </div>
+        <Breadcrumbs/>
         <ProductoEnLista/>
       </div>
     

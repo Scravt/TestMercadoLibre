@@ -27,7 +27,6 @@
     display: grid;
     grid-template-columns: 25% 50% 25%;
     width: 20 rem;
-   
     height: 250px;
     align-items: center;
     background-color:white;

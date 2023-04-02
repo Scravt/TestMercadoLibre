@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+.Cdetalles {
+    width: 60vw;
+    margin: auto
+}
+
+.datos{
+    display: grid;
+    grid-template-columns:  70% 30%;
+    width: 20 rem;
+    height: 250px;
+    align-items: center;
+    background-color:white;
+    height: 80vh;
+}
+
+.picture{
+    width: 680px;
+
+}
+
+.condicion {
+    font-size: 14px;
+    margin-top: 32px;
+}
+.Nproducto{
+    font-size: 24px;
+}
+.precio{
+    font-size: 46px;
+    margin: 32px 0px;
+}
+
+#comprar{
+    border-bottom: steelblue;
+    margin-right: 32px;
+}
+
+.Tdescripcion{
+    font-size: 28px;
+    padding-left: 32px;
+}
+.TextoDescripcion{
+    font-size: 16;
+    margin: 32px 0px;
+    padding-left: 32px;
+}

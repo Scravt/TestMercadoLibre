@@ -7,7 +7,9 @@ import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <CajaBusqueda/>
+    element: <CajaBusqueda/>,
+    errorElement: <h1>Path error</h1>
+    
   },
   {
     path:'/items',

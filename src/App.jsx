@@ -1,13 +1,31 @@
 import { useState } from 'react'
-
 import  {CajaBusqueda}  from './componentes/CajaBusqueda/CajaBusqueda'
 import { ListaProductos } from './componentes/ListaProductos/ListaProductos'
 import { DetalleProducto } from './componentes/DetalleProducto/DetalleProducto'
+import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <CajaBusqueda/>
+  },
+  {
+    path:'/items',
+    element: <ListaProductos/>    
+  },
+  {
+    path:'/items/:id',
+    element:<DetalleProducto/>
+  }
+  ]
+);
+
+
 
 function App() {
   return (
     
-      <DetalleProducto/>
+    <RouterProvider router={router}/>
     
   )
 }

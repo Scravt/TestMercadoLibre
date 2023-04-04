@@ -37,16 +37,18 @@ form{
     border-radius: 0px 4px 4px 0px;
 }
 
-#buscador::selection{
-    border-style: none;
 
-}
 #buscador::placeholder{
     color: #999999;
     text-indent: 16px;
     
 }
+:focus-visible {
+    outline: none !important;
+}
 
 body{
     background-color: #EEEEEE;
 }
+
+/*comentario*/

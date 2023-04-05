@@ -1,23 +1,23 @@
 import { useState } from 'react'
-import  {CajaBusqueda}  from './componentes/CajaBusqueda/CajaBusqueda'
-import { ListaProductos } from './componentes/ListaProductos/ListaProductos'
-import { DetalleProducto } from './componentes/DetalleProducto/DetalleProducto'
+import  {SearchBox}  from './componentes/CajaBusqueda/SearchBox'
+import { ProductList } from './componentes/ListaProductos/ProductList'
+import { DetailProducts } from './componentes/DetalleProducto/DetailProducts'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <CajaBusqueda/>,
+    element: <SearchBox/>,
     errorElement: <h1>Path error</h1>
     
   },
   {
     path:'/items',
-    element: <ListaProductos/>    
+    element: <ProductList/>    
   },
   {
     path:'/items/:id',
-    element:<DetalleProducto/>
+    element:<DetailProducts/>
   }
   ]
 );

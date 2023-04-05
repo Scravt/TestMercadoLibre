@@ -9,9 +9,9 @@
 /* contenedor principal*/
 
 
-.ContenedorProductos{
+.containerproducts{
     width: 60vw;
-   
+
     margin: auto;
 }
 .breadcrumbs{
@@ -23,7 +23,7 @@
 }
 /*  productos individuales en lista    */
 
-.producto{
+.products{
     display: grid;
     grid-template-columns: 25% 50% 25%;
     width: 20 rem;
@@ -32,7 +32,7 @@
     background-color:white;
 }
 
-.descripcion{
+.description{
     font-size: 18px;
     width: 500px;
 }
@@ -45,7 +45,7 @@
     width: 180px;
     border-radius: 4px;
 }
-.precio{
+.price{
     font-size: 24px;
     margin: 32px 0px;
 }

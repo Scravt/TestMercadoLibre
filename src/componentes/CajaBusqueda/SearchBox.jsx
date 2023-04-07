@@ -1,17 +1,24 @@
 import React from 'react'
 import { useState } from 'react'
+import axios from "axios";
 import './SearchBox.css'
 
 export const SearchBox = () => {
     const [Search, SetSearch] = useState ('');
+    const baseURL = 'https://api.mercadolibre.com/sites/MLA/search?q='  
 
     const onChange =(e) =>{
         SetSearch(e.target.value)
     }
     
-    const onClick =(ev) =>{
-        console.log(Search)
-    }
+    const onClick =() =>{
+        axios.get(baseURL+Search).then((response) => {
+            console.log(response.data);
+        });
+      };
+
+
+
 
  /* usar axios*/
  /* trabajar sin el form y con onClick     rederigir con aprametros del impute ver documentacion de react router      */

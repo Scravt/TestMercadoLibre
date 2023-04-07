@@ -26,9 +26,10 @@ form{
     height: 30px;
     border-radius: 4px 0px 0px 4px;
     text-indent: 16px;
+    
 
 }
-.ButtonSearch{
+.buttonsearch{
     height: 30px;
     width: 30px;
     display: flex;

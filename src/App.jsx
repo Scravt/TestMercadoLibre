@@ -4,6 +4,7 @@ import { ProductList } from './componentes/ListaProductos/ProductList'
 import { DetailProducts } from './componentes/DetalleProducto/DetailProducts'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 
+
 const router = createBrowserRouter([
   {
     path: '/',

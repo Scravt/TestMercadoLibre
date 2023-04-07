@@ -1,4 +1,5 @@
 import React from 'react'
+
 import {SearchBox} from '../CajaBusqueda/SearchBox'
 import { Breadcrumbs } from '../ListaProductos/Breadcrumbs'
 import './DetailProducts.css'
@@ -6,6 +7,10 @@ import './DetailProducts.css'
 
 
 export const DetailProducts = () => {
+  const onClick =() =>{
+    console.log("compraste")
+  }
+  
   return (
     <>
       <SearchBox/>
@@ -19,7 +24,7 @@ export const DetailProducts = () => {
             <div className='condicion'> condicion  vendidos  </div> 
             <div className='nameproduct'>Nombre producto </div>
             <div className='price'>precio</div>
-            <button type='button' className ='buy'>Comprar</button>
+            <button onClick={onClick}  className ='buy' >Comprar</button>
           </div>
           <div>
             <div className='titledescription'>

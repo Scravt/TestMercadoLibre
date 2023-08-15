@@ -26,4 +26,3 @@ export const Breadcrumbs = ({ bread }) => {
 
     )
 }
-/*hacer que cada item sea interactivo y provoque una nueva busqueda*/

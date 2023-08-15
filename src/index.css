@@ -1,0 +1,7 @@
+@font-face{
+    font-family: nova;
+    src: url(../public/assets/Fontspring-DEMO-proximanovacond-medium.otf);
+}
+*{
+    font-family: nova;
+}

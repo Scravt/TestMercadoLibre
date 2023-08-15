@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    border-style: none;
+}
+
+
+
+
+
+.containerproducts{
+    width: 60vw;
+   
+    margin: auto;
+    margin-bottom: 30px;   
+    padding: 30px;
+    
+}
+
+
+.containerproducts div:last-child{
+    border:none;
+}

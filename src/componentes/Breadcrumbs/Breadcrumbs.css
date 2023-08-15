@@ -1,0 +1,13 @@
+.breadcrumbs{
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #999999;
+}
+.category {
+    text-indent:3px;
+    list-style-type:none;
+    margin-left: 5px;
+
+}

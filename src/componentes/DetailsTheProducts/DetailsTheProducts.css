@@ -5,12 +5,12 @@
     border-style: none;
 }
 
-.Cdetalles {
+.detailproductos {
     width: 60vw;
     margin: auto
 }
 
-.datos{
+.dataProducts{
     display: grid;
     grid-template-columns:  70% 30%;
     width: 20 rem;
@@ -29,24 +29,25 @@
     font-size: 14px;
     margin-top: 32px;
 }
-.Nproducto{
+.nameproduct{
     font-size: 24px;
 }
-.precio{
+.price{
     font-size: 46px;
     margin: 32px 0px;
 }
 
-#comprar{
+.buy{
     border-bottom: steelblue;
     margin-right: 32px;
+    
 }
 
-.Tdescripcion{
+.titledescription{
     font-size: 28px;
     padding-left: 32px;
 }
-.TextoDescripcion{
+.Textdescription{
     font-size: 16;
     margin: 32px 0px;
     padding-left: 32px;

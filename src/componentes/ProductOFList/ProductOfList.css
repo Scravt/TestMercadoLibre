@@ -1,0 +1,41 @@
+.products{
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    height: 250px;
+    align-items: center;
+    border-bottom: solid;
+    border-color: #dcd9d9;
+   
+
+
+   
+}
+.bloqueListaProductos{
+    background: white;
+    padding: 30px;
+}
+
+ /*cambiar grid por Flexbox  */
+.description{
+    font-size: 18px;
+    width:fit-content;
+    padding-left: 30px;
+}
+
+.imgProduct{
+    margin: 16px;
+}
+.imgProduct img{
+    height: 180px;
+    width: 180px;
+    border-radius: 4px;
+}
+.price{
+    font-size: 24px;
+    margin: 32px 0px;
+    padding: 30px;
+}
+.city{
+    font-size: 12px;
+    color: #999999;
+}

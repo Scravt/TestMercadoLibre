@@ -1,23 +1,25 @@
-import { useState } from 'react'
-import  {CajaBusqueda}  from './componentes/CajaBusqueda/CajaBusqueda'
-import { ListaProductos } from './componentes/ListaProductos/ListaProductos'
-import { DetalleProducto } from './componentes/DetalleProducto/DetalleProducto'
+
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
+import { Home } from './paginas/Home/Home';
+import { ListPage } from './paginas/items/ListPage';
+import { DetailsProduct } from './paginas/final/DetailsProduct';
+
+
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <CajaBusqueda/>,
+    element: <Home/>,
     errorElement: <h1>Path error</h1>
     
   },
   {
     path:'/items',
-    element: <ListaProductos/>    
+    element: < ListPage />    
   },
   {
     path:'/items/:id',
-    element:<DetalleProducto/>
+    element:< DetailsProduct  />
   }
   ]
 );
@@ -28,6 +30,8 @@ function App() {
   return (
     
     <RouterProvider router={router}/>
+
+     
     
   )
 }

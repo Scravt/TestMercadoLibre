@@ -18,7 +18,7 @@ header {
 form{
     display: flex;
 }
-#buscador{
+.Search{
     color:#333333;
     font-size: 18px;
     width:70rem ;
@@ -26,9 +26,10 @@ form{
     height: 30px;
     border-radius: 4px 0px 0px 4px;
     text-indent: 16px;
+    
 
 }
-#Buscar{
+.buttonsearch{
     height: 30px;
     width: 30px;
     display: flex;
@@ -37,11 +38,11 @@ form{
     border-radius: 0px 4px 4px 0px;
 }
 
-#buscador::selection{
+.Search::selection{
     border-style: none;
 
 }
-#buscador::placeholder{
+.Search::placeholder{
     color: #999999;
     text-indent: 16px;
     

@@ -25,13 +25,13 @@ export const SearchBox = ({value}) => {
 
     return (
         <header>
-            <img src="../../../public/assets/Logo_ML.png" alt="logo de Mercado Libre" className='logo' />
+            <img src="../../../assets/Logo_ML.png" alt="logo de Mercado Libre" className='logo' />
             <input type="text" value={search} name='search' id='Search' className='Search' placeholder='Nunca dejes de buscar' autoComplete='off'
                 onChange={onChange} onKeyDown={onInputSearchKeyDown }
             />
 
             <button type='button' className='buttonsearch' onClick={onSearchButonClick}>
-                <img src="../../../public/assets/ic_Search.png" alt="Buscar" />
+                <img src="../../../assets/ic_Search.png" alt="Buscar" />
             </button>
 
         </header>

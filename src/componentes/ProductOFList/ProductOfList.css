@@ -4,12 +4,9 @@
     height: 250px;
     align-items: center;
     border-bottom: solid;
-    border-color: #dcd9d9;
-   
-
-
-   
+    border-color: #dcd9d9; 
 }
+
 .bloqueListaProductos{
     background: white;
     padding: 30px;
@@ -19,7 +16,6 @@
 .description{
     font-size: 18px;
     width:fit-content;
-    padding-left: 30px;
 }
 
 .imgProduct{
@@ -31,11 +27,20 @@
     border-radius: 4px;
 }
 .price{
-    font-size: 24px;
-    margin: 32px 0px;
-    padding: 30px;
+    font-size: 24px !important;
+    margin: 0 0 32px 0;
 }
 .city{
     font-size: 12px;
     color: #999999;
+}
+
+.imgProduct:hover{
+    cursor: pointer;
+}
+.price:hover{
+    cursor: pointer;
+}
+.description:hover{
+    cursor: pointer;
 }

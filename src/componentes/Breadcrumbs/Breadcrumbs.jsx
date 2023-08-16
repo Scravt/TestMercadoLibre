@@ -10,14 +10,13 @@ export const Breadcrumbs = ({ bread }) => {
     }
     const navigate = useNavigate();
     const breads = Object.values(bread).map(obj => obj.name)
-
-
+    
     const SearchInCategory = (e) => {
         let categoy = (e.target.textContent)
         navigate(`/items?q=${categoy}`)
     }
 
-    console.log(breads)
+
 
     return (
         <ul className='breadcrumbs'>

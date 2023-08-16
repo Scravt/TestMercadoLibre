@@ -13,13 +13,13 @@ export const SearchBox = ({value}) => {
             onSearchButonClick()
         }
     } 
+   
 
     const onSearchButonClick = () => {
         navigate(`/items?q=${search}`)
     }
     useEffect(() => {
       setSearch(value)
-      console.log(14,value)
     }, [value])
     
 

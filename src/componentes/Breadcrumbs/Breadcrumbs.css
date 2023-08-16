@@ -3,7 +3,7 @@
     margin-top: 16px;
     margin-bottom: 16px;
     font-size: 14px;
-    color: #999999;
+    
 }
 .breadcrumbs:hover{
     cursor: pointer;
@@ -14,7 +14,7 @@
     text-indent:3px;
     list-style-type:none;
     margin-left: 5px;
-
+    color: #999999;
 }
 .category:not(:last-child)::after{
     content: " >";

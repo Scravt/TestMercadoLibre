@@ -1,8 +1,8 @@
 import React from 'react'
-import {DetailTheProducts} from '../../componentes/DetailsTheProducts/DetailsTheProducts'
+import {DetailsTheProducts} from '../../componentes/DetailsTheProducts/DetailsTheProducts'
 
 export const DetailsProduct = () => {
   return (
-    < DetailTheProducts/>
+    < DetailsTheProducts/>
   )
 }
